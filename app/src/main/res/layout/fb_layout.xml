@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="18dp"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="#FF0000"
+        android:src="@drawable/ic_baseline_arrow_downward_24"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:textColor="#ffffff"
+        android:visibility="invisible"
+        android:layout_gravity="bottom|end"
+        android:text="281 x 500"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginBottom="97dp"
+        android:layout_marginRight="79dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="18dp"
+        android:layout_marginBottom="145dp"
+        android:backgroundTint="#FF0000"
+        android:src="@drawable/ic_baseline_arrow_downward_24"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="77dp"
+        android:layout_marginBottom="167dp"
+        android:text="1024x798"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:backgroundTint="#FF0000"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/ic_baseline_share_24"
+        android:visibility="invisible" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="140dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#FF0000"
+        android:src="@drawable/ic_baseline_wallpaper_24"
+        android:visibility="invisible" />
+</FrameLayout>
